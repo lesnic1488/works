@@ -32,37 +32,37 @@ double averageGrade;
 SetConsoleCP(1251);
 SetConsoleOutputCP(1251);
 
-    printf(" Cтудент"Name LastName "\n");
-    printf(" Виконайте наступні дії:\n");
-    printf(" Введіть ваш вік: ");
+    printf(" Student"Name LastName "\n");
+    printf(" Vikonayte nastupni dii:\n");
+    printf(" Vvedit vash vik: ");
     scanf("%u",&Age);
 
-    printf(" Введіть ваш вступний бал: ");
+    printf(" Vvedit vash vstupniy bal: ");
     scanf("%f",&admissionScore);
 
-    printf(" Введіть оцінку за перший предмет: ");
+    printf(" Vvidet ocinky za peshiy predmet: ");
     scanf("%d",&grade1);
 
-    printf(" Введіть оцінку за другий предмет: ");
+    printf(" Vvidet ocinky za drugiy predmet: ");
     scanf("%d",&grade2);
 
-    printf(" Введіть оцінку за третій предмет: ");
+    printf(" Vvidet ocinky za tretiy predmet: ");
     scanf("%d",&grade3);
 
     averageGrade = (double)(grade1 + grade2 + grade3)/3;
 
     system ("cls");
 
-    printf("Інститут:" University"\n");
-    printf("Факультет:" Faculty"\n");
-    printf("Група:" GroupName);
+    printf("University:" University"\n");
+    printf("Faculty:" Faculty"\n");
+    printf("Group:" GroupName);
     printf("\n___________________________");
-    printf("\n Cтудент: %s %s", Name, LastName );
-    printf("\n Вік: %u", Age);
-    printf("\n Семестр:"  Semestr);
+    printf("\n Student: %s %s", Name, LastName );
+    printf("\n Vik: %u", Age);
+    printf("\n Semestr:"  Semestr);
     printf("\n___________________________");
-    printf("\n Вступний бал: %.2f", admissionScore);
-    printf("\n Середній бал: %.3lf", averageGrade);
+    printf("\n Vstupniy bal: %.2f", admissionScore);
+    printf("\n Seredniy bal: %.3lf", averageGrade);
     printf("\n");
 
 
