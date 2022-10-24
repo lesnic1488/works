@@ -1,0 +1,32 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+    double x, y;
+    printf("Enter x: ");
+    scanf("%lf", &x);
+
+    if(x < 3 && x >= -3){
+        y = 4*sin(3*x) + 3*cos(4*x);
+    }
+    else if(x>=10 && x<20){
+        y=2*pow(x,2)-5*x+9;
+    }
+    else if(x>=100 && x<1000){
+        y=(log10(pow(x,2))/2)-3*x;
+    }
+    else {
+        y=((-1*x)/10)+1;
+    }
+
+    system("cls");
+
+    printf("| - x=%lf", x);
+    printf("\n| - y=%lf", y);
+
+    return 0;
+
+}
+
